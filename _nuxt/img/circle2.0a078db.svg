@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="501px" height="501px" viewBox="0 0 501 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-137.2%" y1="92.4%" x2="97.2%" y2="21.9%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.184">
+        <g id="I-Screen-(2)" transform="translate(0.000000, -168.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.000000, 168.000000)">
+                <circle id="Ellipse_1978" cx="250.5" cy="250.5" r="110.5"></circle>
+                <path d="M250.5,0 C388.847,0 501,112.153 501,250.5 C501,388.847 388.847,501 250.5,501 C112.153,501 0,388.847 0,250.5 C0,112.153 112.153,0 250.5,0 Z" id="Path_34586"></path>
+            </g>
+        </g>
+    </g>
+</svg>

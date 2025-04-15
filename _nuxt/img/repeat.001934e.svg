@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.809" height="71.008" viewBox="0 0 68.809 71.008">
+    <defs>
+        <style>
+            .cls-1{fill:#ffffff}.cls-2{fill:#87AB49}
+        </style>
+    </defs>
+    <g id="repeat" transform="translate(-22.133)">
+        <rect id="Rectangle_7845" width="63" height="46" class="cls-1" data-name="Rectangle 7845" rx="18" transform="translate(22.133 17)"/>
+        <g id="Group_5729" data-name="Group 5729" transform="translate(28.133)">
+            <g id="Group_5728" data-name="Group 5728">
+                <path id="Path_42315" d="M73.192 12.12H45.5v-9.5A2.621 2.621 0 0 0 41.03.768L28.905 12.892a2.6 2.6 0 0 0 0 3.7L41.03 28.718A2.628 2.628 0 1 0 44.746 25L34.472 14.743l5.8-5.8v5.8a2.631 2.631 0 0 0 2.628 2.623h30.307A12.5 12.5 0 0 1 85.7 29.855a2.623 2.623 0 1 0 5.246 0A17.759 17.759 0 0 0 73.192 12.12z" class="cls-2" data-name="Path 42315" transform="translate(-28.133)"/>
+            </g>
+        </g>
+        <g id="Group_5731" data-name="Group 5731" transform="translate(28.133 38.511)">
+            <g id="Group_5730" data-name="Group 5730">
+                <path id="Path_42316" d="M90.155 280.166l-12.11-12.154a2.628 2.628 0 0 0-3.716 3.716L84.6 282l-5.8 5.8V282a2.631 2.631 0 0 0-2.623-2.623H45.868a12.5 12.5 0 0 1-12.489-12.487 2.623 2.623 0 1 0-5.246 0 17.756 17.756 0 0 0 17.735 17.735h27.688v9.5a2.641 2.641 0 0 0 1.618 2.434 2.694 2.694 0 0 0 1.006.2 2.568 2.568 0 0 0 1.851-.772l12.125-12.125a2.6 2.6 0 0 0 0-3.7z" class="cls-2" data-name="Path 42316" transform="translate(-28.133 -264.267)"/>
+            </g>
+        </g>
+        <g id="Group_5733" data-name="Group 5733" transform="translate(56.623 32.58)">
+            <g id="Group_5732" data-name="Group 5732">
+                <circle id="Ellipse_2564" cx="2.915" cy="2.915" r="2.915" class="cls-2" data-name="Ellipse 2564"/>
+            </g>
+        </g>
+        <g id="Group_5735" data-name="Group 5735" transform="translate(47.544 32.58)">
+            <g id="Group_5734" data-name="Group 5734">
+                <circle id="Ellipse_2565" cx="2.915" cy="2.915" r="2.915" class="cls-2" data-name="Ellipse 2565"/>
+            </g>
+        </g>
+        <g id="Group_5737" data-name="Group 5737" transform="translate(65.702 32.58)">
+            <g id="Group_5736" data-name="Group 5736">
+                <circle id="Ellipse_2566" cx="2.915" cy="2.915" r="2.915" class="cls-2" data-name="Ellipse 2566"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1379" height="635.75" viewBox="0 0 1379 635.75">
+    <defs>
+        <style>
+            .cls-1{fill:#102154}.cls-2{fill:url(#radial-gradient)}.cls-3{clip-path:url(#clip-path)}.cls-4,.cls-5{fill:#fff}.cls-4{opacity:.06}.cls-5{opacity:.04}.cls-6{opacity:.184;fill:url(#linear-gradient)}
+        </style>
+        <radialGradient id="radial-gradient" cx=".277" cy="-.284" r="1.435" gradientTransform="matrix(.335 .686 -.321 .74 .093 -.264)">
+            <stop offset="0" stop-color="#2f77d4"/>
+            <stop offset="1" stop-color="#102154"/>
+        </radialGradient>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1118" d="M0 0h792v635.75H0z" class="cls-1" data-name="Rectangle 1118" transform="translate(364)"/>
+        </clipPath>
+        <linearGradient id="linear-gradient" x1="-1.372" x2=".972" y1=".924" y2=".219" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g id="I_Screen" data-name="I Screen" transform="translate(13 -63)">
+        <path id="Rectangle_1117" d="M0 0h1379v634.75H0z" class="cls-2" data-name="Rectangle 1117" transform="translate(-13 64)"/>
+        <g id="Mask_Group_16" class="cls-3" data-name="Mask Group 16" transform="translate(196 63)">
+            <ellipse id="Ellipse_1086" cx="476" cy="475.813" class="cls-4" data-name="Ellipse 1086" rx="476" ry="475.813" transform="translate(378 -137.946)"/>
+            <g id="Group_2544" data-name="Group 2544" transform="translate(551.698 35.684)">
+                <ellipse id="Ellipse_1087" cx="302.302" cy="302.183" class="cls-5" data-name="Ellipse 1087" rx="302.302" ry="302.183"/>
+            </g>
+            <g id="Group_2545" data-name="Group 2545" transform="translate(660.761 144.704)">
+                <ellipse id="Ellipse_1087-2" cx="193.239" cy="193.163" class="cls-5" data-name="Ellipse 1087" rx="193.239" ry="193.163"/>
+            </g>
+        </g>
+        <circle id="Ellipse_1978" cx="110.5" cy="110.5" r="110.5" class="cls-6" data-name="Ellipse 1978" transform="translate(73 405)"/>
+    </g>
+</svg>

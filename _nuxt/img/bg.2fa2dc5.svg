@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1379px" height="681px" viewBox="0 0 1379 681" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11%" y1="12%" x2="92.2%" y2="74.5%" id="linearGradient-1">
+            <stop stop-color="#2F77D4" offset="0%"></stop>
+            <stop stop-color="#102154" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-137.2%" y1="92.4%" x2="97.2%" y2="21.9%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg" transform="translate(0.000000, -529.000000)" fill-rule="nonzero">
+            <polygon id="Rectangle_1117" fill="url(#linearGradient-1)" points="0 529 1379 529 1379 1210.891 0 1210.891"></polygon>
+            <g id="Mask_Group_16" transform="translate(603.000000, 0.000000)" fill="#FFFFFF">
+                <ellipse id="Ellipse_1086" opacity="0.06" cx="830" cy="890.92" rx="829.385" ry="890.534"></ellipse>
+                <g id="Group_2544" transform="translate(303.268000, 325.353000)" opacity="0.04">
+                    <ellipse id="Ellipse_1087" cx="526.732" cy="565.567" rx="526.732" ry="565.567"></ellipse>
+                </g>
+                <g id="Group_2545" transform="translate(493.299000, 529.395000)" opacity="0.04">
+                    <ellipse id="Ellipse_1087-2" cx="336.701" cy="361.525" rx="336.701" ry="361.525"></ellipse>
+                </g>
+            </g>
+            <circle id="Ellipse_1978" fill="url(#linearGradient-2)" opacity="0.184" cx="196.5" cy="1027.641" r="110.5"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="793.711" height="793.711" viewBox="0 0 793.711 793.711">
+    <defs>
+        <style>
+            .cls-1{opacity:.081;fill:url(#linear-gradient)}
+        </style>
+        <linearGradient id="linear-gradient" x1=".266" x2="1.273" y1="-.191" y2=".777" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".424"/>
+        </linearGradient>
+    </defs>
+    <g id="chrome" transform="translate(0 -95)">
+        <circle id="Ellipse_3254" cx="131.5" cy="131.5" r="131.5" class="cls-1" data-name="Ellipse 3254" transform="translate(265.875 360)"/>
+        <path id="Path_50172" d="M188.779 358.739c17.505-80.045 88.937-140.158 174.159-140.158h354.785a397.076 397.076 0 0 0-635.4-102.345q-10.813 10.813-20.675 22.3z" class="cls-1" data-name="Path 50172" transform="translate(33.917 95)"/>
+        <path id="Path_50173" d="M450.927 503.266a178.242 178.242 0 0 1-208.935-81.648 22.88 22.88 0 0 1-.643-1.031L65.126 115.36A397.128 397.128 0 0 0 116.235 614a394 394 0 0 0 207.522 109.532z" class="cls-1" data-name="Path 50173" transform="translate(0 158.473)"/>
+        <path id="Path_50174" d="M384.076 171a177.979 177.979 0 0 1 33.889 221.749c-.158.3-.295.612-.467.912L241.239 698.954c7.591.428 15.218.67 22.883.67a396.852 396.852 0 0 0 396.855-396.856A397.3 397.3 0 0 0 638.66 171z" class="cls-1" data-name="Path 50174" transform="translate(132.734 189.087)"/>
+    </g>
+</svg>

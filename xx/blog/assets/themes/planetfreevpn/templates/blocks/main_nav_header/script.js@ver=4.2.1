@@ -1,0 +1,163 @@
+document.addEventListener("DOMContentLoaded", () => {
+    window.MainNavHeader = new class {
+        _elements = {
+            parent: null,
+            container: null,
+            menu: null,
+            language_selector: null
+        }
+
+        constructor() {
+            let self = this;
+            this._elements.parent = document.querySelector('#layout-header');
+
+            if (!this._elements.parent) {
+                return;
+            }
+
+            this._elements.container = this._elements.parent.querySelector('.header__container');
+
+            let _loadAllIcons = false,
+                loadAllIcons = () => {
+                    if (_loadAllIcons) return;
+                    _loadAllIcons = true;
+                    for (let image of this._elements.parent.querySelectorAll('img[data-src]')) {
+                        image.setAttribute('src', image.dataset.src);
+                    }
+                    for (let icon of this._elements.parent.querySelectorAll('i[data-src]')) {
+                        (function (icon) {
+                            fetch(icon.dataset.src)
+                                .then(r => r.text())
+                                .then((svg)=>{
+                                    icon.innerHTML = svg;
+                                });
+                            if (icon.dataset.color_src) {
+                                icon.style.setProperty('--icon_color', 'url(' + icon.dataset.color_src + ')');
+                            }
+                        })(icon);
+                    }
+                    return true;
+                }
+
+            this._elements.menu = (()=>{
+                let menu =  this.getElement('parent').querySelector('.header__menu');
+                menu.burger = this.getElement('parent').querySelector('.header__burger');
+                menu._opened = false;
+                menu.open = () => {
+                    loadAllIcons();
+                    if (!menu._opened) {
+                        menu.burger.classList.add('__active');
+                        this.getElement('parent').classList.add('__menu_active');
+                        document.body.addEventListener('click', menu.bodyClick);
+                        menu._opened = true;
+                    }
+                }
+                menu.close = () => {
+                    if (menu._opened) {
+                        menu.burger.classList.remove('__active');
+                        this.getElement('parent').classList.remove('__menu_active');
+                        this.getElement('language_selector').close();
+                        menu.closeAllItems();
+                        document.body.removeEventListener('click', menu.bodyClick);
+                        menu._opened = false;
+                    }
+                }
+                menu.toggle = () => {
+                    menu[menu._opened?'close':'open']();
+                };
+                menu.closeAllItems = () => {
+                    for (let item of menu.querySelectorAll('li')) {
+                        item.classList.remove('__active');
+                    }
+                };
+                menu.maybeOpenItem = (e) => {
+                    if (e && e.target && e.target.tagName.toLowerCase() === 'span') {
+                        document.body.addEventListener('click', menu.bodyClick);
+                        loadAllIcons();
+                        if (!e.target.parentNode.classList.contains('__active')) {
+                            menu.closeAllItems();
+                            e.target.parentNode.classList.add('__active');
+                        } else {
+                            e.target.parentNode.classList.remove('__active');
+                        }
+                        return this.Helpers.stopEvent(e);
+                    }
+                };
+                menu.bodyClick = (e) => {
+                    let par = e.target,
+                        is_mobile = window.innerWidth < 576;
+                    while(par) {
+                        if (par && par.classList && (par.classList.contains('header__menu') || par.classList.contains('header__burger') || (is_mobile && par.classList.contains('header__language_selector')))) {
+                            return true;
+                        }
+                        par = par.parentNode;
+                    }
+                    menu.close();
+                    menu.closeAllItems();
+                    document.body.removeEventListener('click', menu.bodyClick);
+                    return true;
+                };
+                menu.burger.addEventListener('click', menu.toggle);
+                menu.addEventListener('click', menu.maybeOpenItem);
+                return menu;
+            })();
+
+            this._elements.language_selector = (()=>{
+                let parent =  this.getElement('parent').querySelector('.header__language_selector');
+                parent.button = parent.querySelector('.header__language_selector__button');
+                parent.list = parent.querySelector('.header__language_selector__list');
+                parent._opened = false;
+                parent.open = () => {
+                    loadAllIcons();
+                    if (!parent._opened) {
+                        parent.button.classList.add('__active');
+                        parent.list.style.display = '';
+                        parent._opened = true;
+                        document.body.addEventListener('click', parent.bodyClick);
+                    }
+                }
+                parent.close = () => {
+                    if (parent._opened) {
+                        parent.button.classList.remove('__active');
+                        parent.list.style.display = 'none';
+                        parent._opened = false;
+                        document.body.removeEventListener('click', parent.bodyClick);
+                        let is_mobile = window.innerWidth < 576;
+                        if (!is_mobile) {
+                            this.getElement('menu').close();
+                        }
+                    }
+                }
+                parent.toggle = (e) => {
+                    parent[parent._opened?'close':'open']();
+                    return this.Helpers.stopEvent(e);
+                };
+                parent.bodyClick = (e) => {
+                    let par = e.target;
+                    while(par) {
+                        if (par && par.classList && par.classList.contains('header__language_selector')) {
+                            return true;
+                        }
+                        par = par.parentNode;
+                    }
+                    parent.close();
+                    return true;
+                };
+                parent.button.addEventListener('click', parent.toggle);
+                return parent;
+            })();
+        }
+
+        getElement(name) {
+            return this._elements[name];
+        }
+
+        Helpers = {
+            stopEvent(e) {
+                if (e.preventDefault) e.preventDefault();
+                if (e.stopPropagation) e.stopPropagation();
+                return false;
+            }
+        }
+    }
+});

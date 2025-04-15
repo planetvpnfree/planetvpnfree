@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+    <defs>
+        <style>
+            .cls-1{fill:#87AB49}.cls-2{fill:#ffffff}.cls-3{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_9785" d="M0 0h52v52H0z" class="cls-1" data-name="Rectangle 9785" transform="translate(241 2281)"/>
+        </clipPath>
+    </defs>
+    <g id="Group_7916" data-name="Group 7916" transform="translate(-241 -2281)">
+        <rect id="Rectangle_9787" width="35" height="35" class="cls-2" data-name="Rectangle 9787" rx="6" transform="translate(253 2296)"/>
+        <g id="Mask_Group_40" class="cls-3" data-name="Mask Group 40">
+            <g id="_006-encryption" data-name="006-encryption" transform="translate(233.619 2273.62)">
+                <path id="Path_50155" d="M53.948 26.243H52.7v-7.735a11.128 11.128 0 1 0-22.256 0v7.734H29.2a4.2 4.2 0 0 0-4.2 4.2v.813H13.756a.913.913 0 0 0 0 1.826H25v2.434h-7.28a.913.913 0 0 0 0 1.826H25v2.434H13.756a.913.913 0 0 0 0 1.826H25v2.434h-7.28a.913.913 0 0 0 0 1.826H25v2.429H13.756a.913.913 0 0 0 0 1.826H25v2.434h-7.28a.913.913 0 0 0 0 1.826H25v.808a4.2 4.2 0 0 0 4.2 4.2h24.748a4.2 4.2 0 0 0 4.2-4.2V30.439a4.2 4.2 0 0 0-4.2-4.2zm-21.676-7.735a9.3 9.3 0 1 1 18.6 0v7.734H48.85v-7.735a7.276 7.276 0 1 0-14.552 0v7.736h-2.026zm3.852 7.734v-7.735a5.451 5.451 0 1 1 10.9 0v7.736zm20.195 28.942a2.374 2.374 0 0 1-2.371 2.371H29.2a2.374 2.374 0 0 1-2.371-2.371v-5.068h4.529a.913.913 0 1 0 0-1.826H26.83V41.6h4.529a.913.913 0 1 0 0-1.826H26.83v-6.697h4.529a.913.913 0 1 0 0-1.826H26.83v-.813a2.374 2.374 0 0 1 2.37-2.37h24.748a2.374 2.374 0 0 1 2.371 2.371z" class="cls-1" data-name="Path 50155"/>
+                <path id="Path_50156" d="M44.6 35.813a4.754 4.754 0 1 0-6.077 7.311v4.284a3.055 3.055 0 1 0 6.111 0v-4.283a4.755 4.755 0 0 0-.034-7.312zm-1.39 6.1a.912.912 0 0 0-.4.757v4.74a1.23 1.23 0 1 1-2.46 0v-4.739a.913.913 0 0 0-.4-.757 2.929 2.929 0 0 1 1.036-5.3 3.171 3.171 0 0 1 .6-.058 2.887 2.887 0 0 1 1.856.668 2.929 2.929 0 0 1-.228 4.694z" class="cls-1" data-name="Path 50156"/>
+                <path id="Path_50157" d="M9.531 37.337h4.225a.913.913 0 1 0 0-1.826H9.531a.913.913 0 0 0 0 1.826z" class="cls-1" data-name="Path 50157"/>
+                <path id="Path_50158" d="M9.531 45.856h4.225a.913.913 0 1 0 0-1.826H9.531a.913.913 0 0 0 0 1.826z" class="cls-1" data-name="Path 50158"/>
+                <path id="Path_50159" d="M13.756 52.55H9.531a.913.913 0 0 0 0 1.826h4.225a.913.913 0 1 0 0-1.826z" class="cls-1" data-name="Path 50159"/>
+            </g>
+        </g>
+    </g>
+</svg>

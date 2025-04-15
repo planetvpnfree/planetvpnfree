@@ -1,0 +1,105 @@
+#layout-header {
+  height: 70px;
+}
+#layout-header .header__download_button {
+  padding: 6px 15px;
+  height: 40px;
+  transition: transform 0.5s cubic-bezier(0.2, 3, 0.4, 1) 0s;
+  transform: scale(1);
+  will-change: transform;
+}
+#layout-header .header__download_button > span {
+  font-size: 16px;
+  font-weight: 700;
+}
+#layout-header .header__download_button:hover,
+#layout-header .header__download_button:focus {
+  transform: scale(1.05);
+  text-decoration: none!important;
+}
+#layout-header .header__logo {
+  flex: unset;
+  margin-right: 10px;
+}
+#layout-header .header__logo img,
+#layout-header .header__logo picture {
+  height: 72px;
+  width: 151px;
+}
+#layout-header .header__burger {
+  display: none;
+}
+#layout-header .header__menu {
+  display: block;
+  position: static;
+  flex: 1;
+  box-shadow: none;
+  padding-left: 10px;
+}
+#layout-header .header__menu #menu-main-nav {
+  flex-direction: row;
+  overflow: visible;
+  gap: 10px;
+}
+#layout-header .header__menu #menu-main-nav li > a,
+#layout-header .header__menu #menu-main-nav li > span {
+  transition: transform 0.5s cubic-bezier(0.2, 3, 0.4, 1), -webkit-transform 0.5s cubic-bezier(0.2, 3, 0.4, 1);
+  transform: scale(1);
+  will-change: transform;
+}
+#layout-header .header__menu #menu-main-nav li.__active > a,
+#layout-header .header__menu #menu-main-nav li:hover > a,
+#layout-header .header__menu #menu-main-nav li:focus > a,
+#layout-header .header__menu #menu-main-nav li.__active > span,
+#layout-header .header__menu #menu-main-nav li:hover > span,
+#layout-header .header__menu #menu-main-nav li:focus > span {
+  transform: scale(1.05);
+}
+#layout-header .header__menu #menu-main-nav li.__active > a,
+#layout-header .header__menu #menu-main-nav li:hover > a,
+#layout-header .header__menu #menu-main-nav li:focus > a {
+  color: var(--green) !important;
+}
+#layout-header .header__menu #menu-main-nav li.__active > span,
+#layout-header .header__menu #menu-main-nav li:hover > span,
+#layout-header .header__menu #menu-main-nav li:focus > span {
+  color: var(--green);
+}
+#layout-header .header__menu #menu-main-nav > li {
+  border-top: none;
+}
+#layout-header .header__menu #menu-main-nav > li > a,
+#layout-header .header__menu #menu-main-nav > li > span {
+  font-size: 14px;
+}
+#layout-header .header__menu #menu-main-nav > li > ul {
+  position: absolute;
+  top: 100%;
+  left: 60px;
+  box-shadow: 0 4px 22px 0 rgba(24, 45, 78, 0.17);
+  background: var(--white);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-top: 20px;
+  white-space: nowrap;
+  max-width: calc(100vw - 120px);
+}
+#layout-header .header__menu #menu-main-nav > li > ul > li {
+  min-width: 160px;
+  width: unset;
+  max-width: unset;
+}
+#layout-header .header__menu #menu-main-nav > li > ul > li > span {
+  transform: none!important;
+  color: var(--dark-blue-9) !important;
+}
+#layout-header .header__menu #menu-main-nav > li > ul > li > a,
+#layout-header .header__menu #menu-main-nav > li > ul > li > span {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#layout-header .header__menu #menu-main-nav > li > ul > li > ul > li > a,
+#layout-header .header__menu #menu-main-nav > li > ul > li > ul > li > span {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style_lg.css.map */

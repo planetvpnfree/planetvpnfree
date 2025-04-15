@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="34.6" viewBox="0 0 57 34.6">
+    <defs>
+        <style>
+            .cls-1{fill:#87AB49;stroke:#87AB49}
+        </style>
+    </defs>
+    <g id="_003-switch" data-name="003-switch" transform="translate(.5 -11.5)">
+        <path id="Path_30612" d="M39.2 12H16.8a16.8 16.8 0 0 0 0 33.6h22.4a16.8 16.8 0 1 0 0-33.6zm0 31.733H16.8a14.933 14.933 0 0 1 0-29.867h22.4a14.933 14.933 0 0 1 0 29.867z" class="cls-1" data-name="Path 30612"/>
+        <path id="Path_30613" d="M17.133 17a12.133 12.133 0 1 0 12.134 12.133A12.147 12.147 0 0 0 17.133 17zm0 22.4A10.267 10.267 0 1 1 27.4 29.133 10.279 10.279 0 0 1 17.133 39.4z" class="cls-1" data-name="Path 30613" transform="translate(-.333 -.333)"/>
+        <path id="Path_30614" d="M47.473 25.273l-6.806 6.807-3.073-3.073a.933.933 0 0 0-1.32 1.32l3.733 3.733a.933.933 0 0 0 1.32 0l7.467-7.467a.933.933 0 0 0-1.32-1.32z" class="cls-1" data-name="Path 30614" transform="translate(-2.4 -.867)"/>
+    </g>
+</svg>

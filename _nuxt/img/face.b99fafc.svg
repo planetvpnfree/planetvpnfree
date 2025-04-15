@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_7913" width="44" height="44" data-name="Group 7913" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:#87AB49}.cls-1{stroke:#707070}.cls-2{fill:#ffffff}.cls-3{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_9785" d="M0 0h44v44H0z" class="cls-1" data-name="Rectangle 9785"/>
+        </clipPath>
+    </defs>
+    <circle id="Ellipse_3252" cx="18.5" cy="18.5" r="18.5" class="cls-2" data-name="Ellipse 3252" transform="translate(0 6)"/>
+    <g id="Mask_Group_34" class="cls-3" data-name="Mask Group 34">
+        <g id="_001-smile" data-name="001-smile">
+            <g id="Group_7892" data-name="Group 7892">
+                <g id="Group_7891" data-name="Group 7891">
+                    <path id="Path_50132" d="M33.508 31.9a.956.956 0 0 0-1.351.075 10.641 10.641 0 0 1-15.792 0 .956.956 0 1 0-1.425 1.276 12.554 12.554 0 0 0 18.643 0 .957.957 0 0 0-.075-1.351z" class="cls-4" data-name="Path 50132" transform="translate(-2.261 -4.87)"/>
+                    <path id="Path_50133" d="M22 0a22 22 0 1 0 22 22A22.025 22.025 0 0 0 22 0zm0 42.087A20.087 20.087 0 1 1 42.087 22 20.109 20.109 0 0 1 22 42.087z" class="cls-4" data-name="Path 50133"/>
+                    <path id="Path_50134" d="M34.174 18.087a4.788 4.788 0 0 0-4.783 4.783.957.957 0 1 0 1.913 0 2.87 2.87 0 1 1 5.739 0 .957.957 0 0 0 1.913 0 4.788 4.788 0 0 0-4.782-4.783z" class="cls-4" data-name="Path 50134" transform="translate(-4.522 -2.783)"/>
+                    <path id="Path_50135" d="M18.957 22.87a.957.957 0 1 0 1.913 0 4.783 4.783 0 0 0-9.565 0 .957.957 0 1 0 1.913 0 2.87 2.87 0 0 1 5.739 0z" class="cls-4" data-name="Path 50135" transform="translate(-1.739 -2.783)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+#layout-header .header__download_button.__primary {
+  display: none;
+}
+#layout-header .header__download_button.__secondary {
+  transform: none;
+  position: static;
+  display: flex;
+  margin: 0 5px 0 0;
+}
+#layout-header .header__logo {
+  flex: 1;
+}
+#layout-header .header__logo img[alt="desktop logo"] {
+  display: none;
+}
+#layout-header .header__burger {
+  margin-left: 10px;
+}
+#layout-header .header__menu {
+  padding-top: 0;
+}
+#layout-header .header__menu:before {
+  content: none;
+}
+#layout-header .header__language_selector {
+  display: block;
+  position: relative;
+  top: unset;
+  left: unset;
+}
+#layout-header .header__language_selector__list {
+  right: 10px;
+  left: unset;
+}
+#layout-header .header__login_button {
+  display: flex;
+  position: static;
+}
+/*# sourceMappingURL=style_sm.css.map */

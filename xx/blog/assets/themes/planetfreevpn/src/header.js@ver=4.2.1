@@ -1,0 +1,170 @@
+(function(){
+
+    let wait_for_jquery = function() {
+        if (typeof window.jQuery === 'undefined') {
+            setTimeout(wait_for_jquery, 100);
+            return;
+        }
+        (function($){
+
+
+            $("body").click((e) => {
+                $(".js-header-lang-dropdown").hide();
+                $('.lang-current').removeClass('active');
+
+                $('.js-menu-profile-dropdown').hide();
+
+                $(".js-header-why-dropdown").removeClass('active');
+                $('.js-header-why').removeClass('active');
+
+                $(".js-header-advantages-dropdown").removeClass('active');
+                $('.js-header-advantages').removeClass('active');
+
+                $(".js-header-products-dropdown").removeClass('active');
+                $('.js-header-products').removeClass('active');
+
+                $('.searchMenuItem-wrapper').css('visibility', 'hidden');
+                $('.searchMenuItem-wrapper').removeClass('searchMenuItem_open');
+                $("body").removeClass('stop-scroll');
+                $('.menu').removeClass('menu-mobile-with-search');
+                $(".js-header-dropdown-collapse-about").removeClass('is-active');
+                $(".js-header-dropdown-collapse-product").removeClass('is-active');
+            });
+
+
+            window.addEventListener('resize', () => {
+                $(".js-header-lang-dropdown").hide();
+                $('.lang-current').removeClass('active');
+                $('.js-menu-profile-dropdown').hide();
+                $(".js-header-why-dropdown").removeClass('active');
+                $('.js-header-why').removeClass('active');
+                $(".js-header-advantages-dropdown").removeClass('active');
+                $('.js-header-advantages').removeClass('active');
+                $(".js-header-products-dropdown").removeClass('active');
+                $('.js-header-products').removeClass('active');
+
+                // mobile
+                $('#js-burger-trigger').removeClass('on');
+                $('.js-header-nav-mobile').removeClass('active')
+                $(".js-header-why-dropdown-mobile").removeClass('active');
+                $('.js-header-why-mobile').removeClass('active');
+                $(".js-header-advantages-dropdown-mobile").removeClass('active');
+                $('.js-header-advantages-mobile').removeClass('active');
+                $(".js-header-products-dropdown-mobile").removeClass('active');
+                $('.js-header-products-mobile').removeClass('active');
+            });
+
+            // Hamburger
+            $("#js-burger-trigger").click((e) => {
+                e.preventDefault();
+                $('#js-burger-trigger').toggleClass('on');
+                $('.js-header-nav-mobile').toggleClass('active')
+            });
+
+// Collapse menu
+            $(".js-header-why p").click((e) => {
+                $('.js-header-why').toggleClass('active');
+                $(".js-header-why-dropdown").toggleClass('active');
+                // close other window
+                $(".js-header-advantages-dropdown").removeClass('active');
+                $('.js-header-advantages').removeClass('active');
+                $(".js-header-products-dropdown").removeClass('active');
+                $('.js-header-products').removeClass('active');
+                $(".js-header-lang-dropdown").hide();
+                $('.lang-current').removeClass('active');
+                $('.js-menu-profile-dropdown').hide();
+                e.stopPropagation();
+            });
+
+            $(".js-header-advantages p").click((e) => {
+                $('.js-header-advantages').toggleClass('active');
+                $(".js-header-advantages-dropdown").toggleClass('active');
+                // close other window
+                $(".js-header-why-dropdown").removeClass('active');
+                $('.js-header-why').removeClass('active');
+                $(".js-header-products-dropdown").removeClass('active');
+                $('.js-header-products').removeClass('active');
+                $(".js-header-lang-dropdown").hide();
+                $('.lang-current').removeClass('active');
+                $('.js-menu-profile-dropdown').hide();
+                e.stopPropagation();
+            });
+
+            $(".js-header-products p").click((e) => {
+                $('.js-header-products').toggleClass('active');
+                $(".js-header-products-dropdown").toggleClass('active');
+                // close other window
+                $(".js-header-why-dropdown").removeClass('active');
+                $('.js-header-why').removeClass('active');
+                $(".js-header-advantages-dropdown").removeClass('active');
+                $('.js-header-advantages').removeClass('active');
+                $(".js-header-lang-dropdown").hide();
+                $('.lang-current').removeClass('active');
+                $('.js-menu-profile-dropdown').hide();
+                e.stopPropagation();
+            });
+
+
+// Collapse menu Mobile
+            $(".js-header-why-mobile").click((e) => {
+                $('.js-header-why-mobile').toggleClass('active');
+                $(".js-header-why-dropdown-mobile").toggleClass('active');
+                // close other window
+                $(".js-header-advantages-dropdown-mobile").removeClass('active');
+                $('.js-header-advantages-mobile').removeClass('active');
+                $(".js-header-products-dropdown-mobile").removeClass('active');
+                $('.js-header-products-mobile').removeClass('active');
+                $(".js-header-lang-dropdown-mobile").hide();
+                //$('.lang-current').removeClass('active');
+                e.stopPropagation();
+            });
+
+            $(".js-header-advantages-mobile").click((e) => {
+                $('.js-header-advantages-mobile').toggleClass('active');
+                $(".js-header-advantages-dropdown-mobile").toggleClass('active');
+                // close other window
+                $(".js-header-why-dropdown-mobile").removeClass('active');
+                $('.js-header-why-mobile').removeClass('active');
+                $(".js-header-products-dropdown-mobile").removeClass('active');
+                $('.js-header-products-mobile').removeClass('active');
+                $(".js-header-lang-dropdown-mobile").hide();
+                //$('.lang-current').removeClass('active');
+                e.stopPropagation();
+            });
+
+            $(".js-header-products-mobile").click((e) => {
+                $('.js-header-products-mobile').toggleClass('active');
+                $(".js-header-products-dropdown-mobile").toggleClass('active');
+                // close other window
+                $(".js-header-why-dropdown-mobile").removeClass('active');
+                $('.js-header-why-mobile').removeClass('active');
+                $(".js-header-advantages-dropdown-mobile").removeClass('active');
+                $('.js-header-advantages-mobile').removeClass('active');
+                $(".js-header-lang-dropdown-mobile").hide();
+                //$('.lang-current').removeClass('active');
+                e.stopPropagation();
+            });
+
+// Locale
+            $(".js-header-locale-button").click((e) => {
+                $('.lang-current').toggleClass('active');
+                //$(".js-header-dropdown").hide();
+                //$(".js-header-locale-dropdown").toggle();
+                $(".js-header-lang-dropdown").toggle();
+
+                $(".js-header-why-dropdown").removeClass('active');
+                $('.js-header-why').removeClass('active');
+                $(".js-header-advantages-dropdown").removeClass('active');
+                $('.js-header-advantages').removeClass('active');
+                $(".js-header-products-dropdown").removeClass('active');
+                $('.js-header-products').removeClass('active');
+
+                $('.js-menu-profile-dropdown').hide();
+
+                //$('.menu').removeClass('menu-mobile-with-search');
+                e.stopPropagation();
+            });
+        })(window.jQuery);
+    };
+    wait_for_jquery();
+})();

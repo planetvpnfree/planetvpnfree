@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:#87AB49}.cls-1{stroke:#707070}.cls-2{fill:#ffffff}.cls-3{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_9785" d="M0 0h52v52H0z" class="cls-1" data-name="Rectangle 9785" transform="translate(241 2281)"/>
+        </clipPath>
+    </defs>
+    <g id="Group_7915" data-name="Group 7915" transform="translate(-241 -2281)">
+        <rect id="Rectangle_9788" width="16" height="21" class="cls-2" data-name="Rectangle 9788" rx="4" transform="translate(244 2302)"/>
+        <rect id="Rectangle_9789" width="16" height="21" class="cls-2" data-name="Rectangle 9789" rx="4" transform="translate(272 2302)"/>
+        <g id="Mask_Group_38" class="cls-3" data-name="Mask Group 38">
+            <g id="_008-headphones" data-name="008-headphones" transform="translate(241 2281)">
+                <path id="Path_50145" d="M48.852 27.625H45.8V19.8a19.8 19.8 0 0 0-39.6 0v7.82H3.148v3.047H6.2v4.57a4.575 4.575 0 0 0 4.57 4.57h7.617V21.531h-7.621a4.549 4.549 0 0 0-1.523.262V19.8a16.758 16.758 0 0 1 33.516 0v1.989a4.549 4.549 0 0 0-1.523-.262h-7.619v18.286h7.617a4.552 4.552 0 0 0 1.41-.224 7.628 7.628 0 0 1-7.5 6.317h-4.836a4.57 4.57 0 1 0 0 3.047h4.832A10.676 10.676 0 0 0 45.8 38.289v-7.617h3.047zm-38.086-3.047h4.57v12.188h-4.57a1.525 1.525 0 0 1-1.523-1.523V26.1a1.525 1.525 0 0 1 1.523-1.522zM26 48.953a1.523 1.523 0 1 1 1.523-1.523A1.525 1.525 0 0 1 26 48.953zm16.758-13.711a1.525 1.525 0 0 1-1.523 1.523h-4.57V24.578h4.57a1.525 1.525 0 0 1 1.523 1.522z" class="cls-4" data-name="Path 50145"/>
+            </g>
+        </g>
+    </g>
+</svg>
