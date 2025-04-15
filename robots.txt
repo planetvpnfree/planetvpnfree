@@ -1,0 +1,88 @@
+User-agent: *
+Disallow:
+Clean-param: country /servers/
+Clean-param: country /order/
+Clean-param: email /order/
+Clean-param: support /mac/
+Clean-param: support /torrents/
+Clean-param: support /android/
+Clean-param: support /order/
+Clean-param: support /proxy/
+Clean-param: support /linux/
+Clean-param: support /ip-definition/
+Clean-param: support /terms/
+Clean-param: support /opera/
+Clean-param: at /feedback/
+Clean-param: __cf_chl_tk /opera/
+Clean-param: __cf_chl_tk /windows/
+Disallow: /404/
+Disallow: /en-GB/*
+Disallow: /es-MX/*
+Disallow: /pt-BR/*
+Disallow: /refund/
+Disallow: /cabinet/
+Disallow: /reset/
+Disallow: /confirm/
+Disallow: /payment*
+Disallow: /latest/
+Disallow: /uninstall/
+Disallow: /login/
+Disallow: /install/
+Disallow: /order2/
+Disallow: /feed/
+Disallow: /cabinet/download*
+Disallow: /download/macos/
+Disallow: /virus-scan/result/
+Disallow: /thanks/
+Disallow: /unsupported-browser/
+Disallow: /ads-widget/
+Disallow: /ads-widget-test/
+Disallow: /affiliate-terms/
+Disallow: /new/
+Disallow: /zendesk/
+Disallow: /*/affiliate-terms/
+Disallow: /*/refund/
+Disallow: /*/cabinet/
+Disallow: /*/reset/
+Disallow: /*/confirm/
+Disallow: /*/payment*
+Disallow: /*/latest/
+Disallow: /*/uninstall/
+Disallow: /*/login/
+Disallow: /*/install/
+Disallow: /*/order2/
+Disallow: /*/feed/
+Disallow: /*/cabinet/download*
+Disallow: /*/download/macos/
+Disallow: /*/virus-scan/result/
+Disallow: /*/thanks/
+Disallow: /*/unsupported-browser/
+Disallow: /*/ads-widget/
+Disallow: /*/ads-widget-test/
+Disallow: /*/new/
+Disallow: /*/blog/author
+Disallow: /wp-includes
+Disallow: *page*
+Disallow: /?
+Disallow: /cgi-bin
+Disallow: *?s=
+Disallow: *&s=
+Disallow: *utm*=
+Disallow: *openstat=
+Disallow: *?country*
+Disallow: *?support=*
+Disallow: /new-albania/
+Disallow: /*/new-albania/
+Disallow: /servers/new-albania/
+Disallow: /*/servers/new-albania/
+Allow: *.js
+Allow: *.css
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: /wp-includes/*.css
+Allow: /wp-includes/*.js
+Host: planetvpnfree.pages.dev
+Sitemap: https://planetvpnfree.pages.dev/sitemap.xml
